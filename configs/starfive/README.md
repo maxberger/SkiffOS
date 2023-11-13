@@ -61,6 +61,9 @@ If all went successfully, the system will boot into U-boot, then SkiffOS!
 
 You may need to flash uboot and opensbi according to the instructions on the starfive2 site.
 
+TODO: This works for board 1.3.1, if you have version 1.2 please update BR2_LINUX_KERNEL_INTREE_DTS_NAME in
+config/starvive/visionfive2/buildroot/dts
+
 ## Board Compatibility
 
 There are specific packages tuned to each model. The boards are all actively
